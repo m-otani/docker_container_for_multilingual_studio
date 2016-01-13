@@ -1,4 +1,4 @@
-﻿# install PHP
+# install PHP
 FROM php:7.0.2-apache
 
 # get apt-get package set
