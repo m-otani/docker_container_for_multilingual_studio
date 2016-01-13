@@ -1,0 +1,2 @@
+# docker_container_for_multilingual_studio
+PHPと多言語工房を入れたdockerコンテナ．dockerの勉強用に．
