@@ -23,6 +23,7 @@ CMD /usr/sbin/apache2ctl -D FOREGROUND
 # install MultilingualStudio
 RUN git clone https://github.com/langrid/langrid-php-library.git
 RUN git clone https://github.com/jpfuentes2/php-activerecord.git
-RUN mv -f php-activerecord/* langrid-php-library/lib/php-activerecord/
+RUN rm -rf langrid-php-library/lib/php-activerecord
+RUN mv -f php-activerecord langrid-php-library/lib/php-activerecord
 RUN rm -rf php-activerecord
 
